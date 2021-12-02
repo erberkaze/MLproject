@@ -132,12 +132,13 @@ print(scipy.stats.pearsonr(a25, a25))
 np.corrcoef(a24,a25,a23,a12,a15)
 
 
-#for i in range(25):
-#    for j in range(25):
-#        print("i = " + str(i) + np.correlate(a_total[i], a_total[j]))
-
-#    break
+for i in range(25):
+   for j in range(25):
+    print("i = " + str(i) + np.correlate(a_total[i], a_total[j]))
+    break
+    
 print(df.unique())
+
 
 #for i in range(len(df_nmp[0])):
 
